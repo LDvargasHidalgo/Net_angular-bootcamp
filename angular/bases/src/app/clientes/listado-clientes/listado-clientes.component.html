@@ -1,0 +1,7 @@
+<h3>Clientes (Listado cliente component)</h3>
+    <hr />
+    <ul>
+      <li *ngFor="let cliente of clientico">
+        {{cliente.nombre}} - {{cliente.credito | number}}
+      </li>
+    </ul>
